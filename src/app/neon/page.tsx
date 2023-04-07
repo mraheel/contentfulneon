@@ -2,7 +2,7 @@ import Image from 'next/image'
 import profilePic from 'public/web1.png'
 
 async function getData() {
-    const res = await fetch('http://localhost:3000/api/posts');
+    const res = await fetch(`${process.env.BASE_URL}/api/posts`);
     if (!res.ok) {
         throw new Error('Failed to fetch data');
     }
