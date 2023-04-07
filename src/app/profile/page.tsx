@@ -46,7 +46,7 @@ export default function Profile() {
 
             <h2 className='text-5xl text-teal-600 py-2'>Muhammad Raheel</h2>
             <h3 className='text-2xl py-2 text-gray-800 md:text-3xl dark:text-white'>Software Enginner / Frontend Developer</h3>
-            <p className='text-md leading-8 max-w-xl mx-auto md:text-xl py-5'>Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!</p>
+            <p className='text-md leading-8 max-w-xl mx-auto md:text-xl py-5'>Freelancer providing services for programming and design content needs. Join me down below and let&apos;s get cracking!</p>
             <div className='flex text-5xl justify-center gap-16 py-3 text-gray-600 dark:text-white'>
               <AiFillTwitterSquare />
               <AiFillFacebook />
@@ -61,7 +61,7 @@ export default function Profile() {
         <section>
           <div>
             <h3 className='text-3xl py-1'>Services I offer</h3>
-            <p className='text-md leading-8 text-gray-800 py-2 dark:text-white'>Since the beginning of my journey as a freelance designer and developer, I've done remote work for <span className='text-teal-500'>agencies</span> consulted for <span className='text-teal-500'>startups</span> and collaborated with talanted people to create digital products for both business and consumer use.</p>
+            <p className='text-md leading-8 text-gray-800 py-2 dark:text-white'>Since the beginning of my journey as a freelance designer and developer, I&apos;ve done remote work for <span className='text-teal-500'>agencies</span> consulted for <span className='text-teal-500'>startups</span> and collaborated with talanted people to create digital products for both business and consumer use.</p>
             <p className='text-md leading-8 text-gray-800 py-2 dark:text-white'>I offer from a wide range of services, including brand design, programming and teaching.</p>
           </div>
 
@@ -82,7 +82,7 @@ export default function Profile() {
             <div className='p-10 text-center shadow-lg border border-gray-50 rounded-xl my-10 flex-1 dark:bg-white'>
               <Image alt='code' style={{ margin: 'auto' }} src={CodeImage} width={100} height={100} />
               <h3 className='text-lg font-medium mt-10 mb-2 dark:text-gray-900'>Code your dream project</h3>
-              <p className='py-2 text-gray-800'>Do you have an idea for your next great website? Let's make it a reality.</p>
+              <p className='py-2 text-gray-800'>Do you have an idea for your next great website? Let&apos;s make it a reality.</p>
               <h3 className='py-4 text-teal-600'>Design Tools I Use</h3>
              
               <p className='py-1 text-gray-800'>Photoshop</p>
@@ -110,7 +110,7 @@ export default function Profile() {
 
         <section>
           <h3 className='text-3xl py-1'>Portfolio</h3>
-          <p className='text-md leading-8 py-2'>Since the beginning of my journey as a freelance designer and developer, I've done remote work for <span className='text-teal-500'>agencies</span> consulted for <span className='text-teal-500'>startups</span> and collaborated with talanted people to create digital products for both business and consumer use.</p>
+          <p className='text-md leading-8 py-2'>Since the beginning of my journey as a freelance designer and developer, I&apos;ve done remote work for <span className='text-teal-500'>agencies</span> consulted for <span className='text-teal-500'>startups</span> and collaborated with talanted people to create digital products for both business and consumer use.</p>
           <p className='text-md leading-8 py-2'>I offer from a wide range of services, including brand design, programming and teaching.</p>
         
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
