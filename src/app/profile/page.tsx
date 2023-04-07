@@ -20,7 +20,7 @@ import { useState } from "react";
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Profile() {
 
   const [darkMode, setDarkMode] = useState(false);
 
