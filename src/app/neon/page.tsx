@@ -2,7 +2,7 @@ import Image from 'next/image'
 import profilePic from 'public/web1.png'
 
 async function getData() {
-    const res = await fetch(`${process.env.BASE_URL}/api/posts`);
+    const res = await fetch(`${process.env.BASE_FETCH_URL}/api/posts`);
     if (!res.ok) {
         throw new Error('Failed to fetch data');
     }
@@ -11,8 +11,7 @@ async function getData() {
 
 export default async function posts() {
     const posts = await getData();
-    // const posts = Array();
-     
+
     return (
         <>
             <section className="text-gray-600 body-font">
