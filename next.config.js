@@ -21,7 +21,7 @@ const nextConfig = {
     CONTENTFUL_SPACE_ID: "i4jgjype9bon",
     CONTENTFUL_ACCESS_KEY: "UhwjXl-mNq3BmA55Gh1_gjZrGEISO-cK1jhtwe3ec6Q",
 
-    BASE_FETCH_URL: "http://localhost:3000"
+    BASE_FETCH_URL: "https://contentfulneon-mraheel.vercel.app"
   },
   images: {
     remotePatterns: [
